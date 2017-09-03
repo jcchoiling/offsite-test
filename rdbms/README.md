@@ -14,7 +14,7 @@ create articles and clickstream table and they have the following table relation
     sudo -u postgres psql -f ./ddl/clickstream.sql
 
 Two tables joined together by clickstream.objectId and articles.id
-<img src="https://i.imgur.com/YP9kiW6.png"> 
+<img src="https://i.imgur.com/0xIOKaK.png"> 
 
 #### Execute the sql file
 execute and return the sql results
