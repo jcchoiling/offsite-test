@@ -1,5 +1,5 @@
-# offsite-test
-The offsite test have three questions. It is suggested to set up one EC2 Instance to review it. 
+# Offsite Test - Part 1
+Part 1 of the offsite-test test for the knowledge of processing unstructured data. How do deal with miliions of apache web log
 
 ## Environment Setup 
 Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run directly ***setup.sh***. The setup.sh in the project folder covers all the following environment setup:
