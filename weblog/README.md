@@ -39,8 +39,13 @@ Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run direc
 
 
 ## Getting Start
-After finished setting up the environment. Please execute run.sh to review the results. The 
+After finished setting up the environment. Please execute run.sh to review the results. Unzip the two files before executing the job
 
+    # unzip data in data and lookup folder
+    gzip -d ./lookup/GeoLiteCity.dat.gz
+    gzip -d ./data/access_log_Aug95.gz
+
+    # execute Spark Job through spark-submit
     bash run.sh
 
 It takes around 3 mins to process the data and deliver the results:
