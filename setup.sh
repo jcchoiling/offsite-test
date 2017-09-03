@@ -8,6 +8,10 @@ sudo apt install python3-pip -y
 # intall ipython
 sudo pip3 install ipython
 
+# unzip the data in the lookup
+gzip -d lookup/GeoLiteCity.dat.gz 
+gzip -d data/access_log_Aug95
+
 # download spark2.1 and set up softlink
 sudo mkdir /opt/spark
 wget -O "spark-2.1.0-bin-hadoop2.7.tgz" "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz"
