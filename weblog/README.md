@@ -1,5 +1,5 @@
 # Offsite Test - Part 1
-Part 1 of the offsite-test test for the knowledge of processing unstructured data. How do deal with miliions of apache web log
+Part 1 of the offsite-test test for the knowledge of processing unstructured data. How to deal with miliions of apache web log in the file. I use Spark as the data procseeing engine to extract and transform the web log. 
 
 ## Environment Setup 
 Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run directly ***setup.sh***. The setup.sh in the project folder covers all the following environment setup:
@@ -15,7 +15,7 @@ Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run direc
         sudo pip3 install ipython
 
 #### Install Spark 
-* I use Spark technology to process the access log file. Therefore, please ensure the environment got Spark installed. Here are the steps, we have to download and install Spark2.1. 
+* Since I will use Spark to perform the data extraction, we need to ensure Spark is installed. Here are the steps for installation, we will download and install Spark2.1. 
 
         sudo mkdir /opt/spark
         wget -O "spark-2.1.0-bin-hadoop2.7.tgz" "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz"
