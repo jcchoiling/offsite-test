@@ -15,7 +15,7 @@ Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run direc
         sudo pip3 install ipython
 
 #### Install Spark 
-* I use Spark technology to process the access log file. Therefore, please ensure the environment got Spark installed. Here is the steps, we have to download and install Spark2.1. 
+* I use Spark technology to process the access log file. Therefore, please ensure the environment got Spark installed. Here are the steps, we have to download and install Spark2.1. 
 
         sudo mkdir /opt/spark
         wget -O "spark-2.1.0-bin-hadoop2.7.tgz" "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz"
@@ -43,6 +43,6 @@ After finished setting up the environment. Please execute run.sh to review the r
 
     bash run.sh
 
-It takes around 5 mins to process the data and deliver the Results:
+It takes around 3 mins to process the data and deliver the results:
 <img src="https://i.imgur.com/ad58715.png">
 
