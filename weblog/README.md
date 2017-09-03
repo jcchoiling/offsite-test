@@ -1,5 +1,5 @@
 # Offsite Test - Part 1
-Part 1 of the offsite-test test for the knowledge of processing unstructured data. How to deal with miliions of apache web log in the file. I use Spark as the data procseeing engine to extract and transform the web log. 
+Part 1 of the offsite-test test for the knowledge of processing unstructured data. How to deal with miliions of apache web log in the file. I use Spark as the data processing engine to extract and transform the web log. 
 
 ## Environment Setup 
 Assuming you turn on a brand new linux instance. e.g t2.mirco. You can run directly ***setup.sh***. The setup.sh in the project folder covers all the following environment setup:
