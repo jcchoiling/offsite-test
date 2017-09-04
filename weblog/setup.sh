@@ -31,6 +31,7 @@ export PYTHONPATH=${SPARK_HOME}/python/lib/py4j-0.10.4-src.zip:${PYTHONPATH}
 export PYSPARK_PYTHON=/usr/bin/python3
 export PYSPARK_DRIVER_PYTHON=ipython
 
+PATH=/usr/local/bin:$JAVA_HOME/bin:$SPARK_HOME/bin:$PYTHON_HOME/bin:$PATH:$HOME/bin
 
 # update the bashrc file with the environment variables
 cat << EOF >> ~/.bashrc
@@ -46,5 +47,5 @@ PATH=/usr/local/bin:$JAVA_HOME/bin:$SPARK_HOME/bin:$PYTHON_HOME/bin:$PATH:$HOME/
 
 EOF
 
-cd ~
+
 source ~/.bashrc
