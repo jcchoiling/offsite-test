@@ -57,11 +57,7 @@ This section explain the action in the setup.sh
 
 ## Getting Start
 After finished setting up the environment. Please execute run.sh to review the results. Unzip the two files before executing the job
-        
-       # unzip data in data and lookup folder
-       gzip -d ./lookup/GeoLiteCity.dat.gz
-       gzip -d ./data/access_log_Aug95.gz
-   
+           
        # execute Spark Job through spark-submit
        bash run.sh
 
