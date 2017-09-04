@@ -56,7 +56,12 @@ This section explain the action in the setup.sh
 
 
 ## Getting Start
-After finished setting up the environment. Please execute run.sh to review the results. Unzip the two files before executing the job
+After running the setup.sh, we need to source the ~/.bashrc file in order to activate the environment variables
+
+       # execute Spark Job through spark-submit
+       source ~/.bashrc
+
+After finished setting up the environment. Please execute run.sh to review the results. 
            
        # execute Spark Job through spark-submit
        bash run.sh
