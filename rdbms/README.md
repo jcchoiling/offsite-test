@@ -4,6 +4,7 @@ Part 2 of the offsite-test test for the knowledge of RDBMS.
 ## Environment Setup
 Assuming you turn on a t2.micro instance, you can use the same instance as Q1-WebLog. Next, move to rdbms folder and run setup.sh
 
+    cd rdbms
     bash setup.sh 
     
 The setup.sh will first install the PostgreSQL in the server and execute the DDL script to create articles and clickstream tables.

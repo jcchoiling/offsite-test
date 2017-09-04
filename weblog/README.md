@@ -12,8 +12,9 @@ Please clone the project to the local folder by executing git clone under your H
 
     git clone https://github.com/jcchoiling/offsite-test.git
     
-Run the setup.sh for environment setup:
+Go to weblog folder and run the setup.sh for environment setup:
 
+    cd weblog
     bash setup.sh 
     
 #### *If you have already executed the setup.sh, you don't have to run the following code, you can directly jump to _Getting Start_.*
